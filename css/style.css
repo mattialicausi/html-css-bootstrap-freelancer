@@ -35,7 +35,18 @@ body{
 
 header{
     height: 90px;
+    line-height: 50px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1000;
 }
+
+main{
+    padding-top: 90px;
+}
+
 
 /* MODIFICO SECTION 1 */
 
