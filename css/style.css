@@ -52,3 +52,15 @@ header{
     background-color: var(--my-white);
     height: 4px;
 }
+
+/* SEZIONE 2 */
+
+.dimension-star-2{
+    background-color: black;
+    height: 4px;
+}
+
+#portfolio img{
+    width: 100%;
+}
+
