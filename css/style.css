@@ -1,0 +1,54 @@
+/* PALETTE COLORI */
+:root{
+    --my-bg-header-fb: rgb(47, 62, 78);
+    --my-bg-section-1: rgb(87, 185, 157);
+    --my-white: #fff;
+    --my-bg-footer-top: rgb(63, 84, 107); 
+}
+
+/* GENERALI */
+
+body{
+    color: var(--my-white);
+    background-color: var(--my-white);
+}
+
+.my-color-black{
+    color: black;
+}
+
+/* MODIFICO BACKGROUND COLOR */
+
+.my-bg-black{
+    background-color: var(--my-bg-header-fb);
+}
+
+.my-bg-grey{
+    background-color: var(--my-bg-section-1);
+}
+
+.my-bg-light-black{
+    background-color: var(--my-bg-footer-top);
+}
+
+/* MODIFICO HEADER */
+
+header{
+    height: 90px;
+}
+
+/* MODIFICO SECTION 1 */
+
+#jumbo img{
+    max-width: 60%;
+    height: auto;
+}
+
+.my-star{
+    color: var(--my-white);
+}
+
+.dimension-star{
+    background-color: var(--my-white);
+    height: 4px;
+}
