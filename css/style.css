@@ -114,21 +114,6 @@ main{
     border: 1px solid white;
 }
 
-/* FOOTER TOP */
-
-.container-icona i{
-    font-size: 25px;
-}
-
-.container-icona{
-    width:50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 1px solid white;
-    text-align: center;
-    align-items: 50px;
-}
-
 /* MODIFICO CONTACT ME */
 
 #contact input, #contact textarea{
@@ -143,4 +128,29 @@ main{
     height: auto;
     border: none;
     margin-bottom: 30px;
+}
+
+/* FOOTER TOP */
+
+.icona i{
+    font-size: 25px;
+}
+
+.icona{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+}
+
+.grey-color{
+    color: grey;
+}
+
+.icona i:hover{
+    cursor: pointer;
 }
