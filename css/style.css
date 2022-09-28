@@ -38,29 +38,30 @@ body{
 /* MODIFICO HEADER */
 
 header{
+    width: 100%;
     height: 90px;
     line-height: 50px;
     position: fixed;
-    right: 0;
-    left: 0;
+    /* right: 0;
+    left: 0; */
     top: 0;
     z-index: 500;
 }
 
-main{
-    padding-top: 90px;
-}
-
-#boot-navbar .nav-link, .navbar-toggler .navbar-toggler-icon{
+#boot-navbar .nav-link, .navbar-toggler i{
     color: var(--my-white);
 }
 
-#my-navbar .nav-link:hover, .navbar-toggler:hover .navbar-toggler-icon{
+#my-navbar .nav-link:hover, .navbar-toggler:hover i{
     color: green;
 }
 
 
 /* MODIFICO SECTION 1 */
+
+#jumbo{
+    padding-top: 90px;
+}
 
 #jumbo img{
     max-width: 60%;
