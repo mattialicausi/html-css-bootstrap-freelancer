@@ -75,9 +75,28 @@ main{
     height: 4px;
 }
 
-#portfolio img{
+.layover-container{
+    cursor: pointer;
+}
+
+.layover-container::after{
+    content: '+';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
     width: 100%;
-    border-radius: 2%;
+    height: 100%;
+    background-color: rgb(26, 188, 156, .5);
+    font-size: 80px;
+    font-weight: 800;
+    color: var(--my-white);
+    opacity: 0;
+}
+
+.layover-container:hover::after{
+    opacity: 1;
 }
 
 /* SEZIONE 3 */
@@ -87,9 +106,11 @@ main{
 }
 
 /* FOOTER TOP */
+
 .container-icona i{
     font-size: 25px;
 }
+
 .container-icona{
     width:50px;
     height: 50px;
