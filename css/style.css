@@ -42,20 +42,41 @@ header{
     height: 90px;
     line-height: 50px;
     position: fixed;
-    /* right: 0;
-    left: 0; */
     top: 0;
     z-index: 500;
 }
 
-#boot-navbar .nav-link, .navbar-toggler i{
+/* EFFETTI HOVER */
+
+#about button:hover{
+    background-color: var(--my-bg-header-fb);
+    border: var(--my-bg-header-fb);
+}
+
+#contact button:hover{
+    background-color: var(--my-bg-footer-top);
+    border: var(--my-bg-footer-top);
+}
+
+#my-navbar .nav-link{
     color: var(--my-white);
+    transition: color 1000ms;
 }
 
 #my-navbar .nav-link:hover, .navbar-toggler:hover i{
-    color: green;
+    color: var(--my-bg-section-1);
 }
 
+.navbar-toggler i:hover{
+    color: var(--my-white);
+}
+
+.icona:hover{
+    background-color: var(--my-bg-section-1);
+    border: var(--my-bg-section-1);
+    transition: background-color 700ms ease-in;
+
+}
 
 /* MODIFICO SECTION 1 */
 
@@ -149,7 +170,8 @@ header{
 }
 
 .grey-color{
-    color: grey;
+    color: var(--my-bg-section-1);
+    cursor: pointer;
 }
 
 .icona i:hover{
