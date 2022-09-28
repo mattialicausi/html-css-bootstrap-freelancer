@@ -11,8 +11,8 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header class="my-bg-black">
-        <nav class="navbar navbar-expand-md navbar-dark">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark my-bg-black">
             <div class="container">
               <a class="navbar-brand text-uppercase" href="#">Start Bootstrap</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#my-navbar" aria-controls="my-navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,13 +21,13 @@
               <div class="collapse navbar-collapse" id="my-navbar">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active text-uppercase" aria-current="page" href="#">Portfolio</a>
+                    <a class="nav-link text-uppercase" aria-current="page" href="#">Portfolio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-uppercase" aria-current="page" href="#">About</a>
+                    <a class="nav-link text-uppercase" aria-current="page" href="#">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-uppercase" aria-current="page" href="#">contact</a>
+                    <a class="nav-link text-uppercase" aria-current="page" href="#">contact</a>
                   </li>
                 </ul>
               </div>
@@ -146,7 +146,49 @@
         </section>
         <section id="contact" class="my-color-black">
             <div class="container">
-                CONTACT
+                    <div class="row text-center">
+                        <div class="col-1-auto mt-3">
+                            <h1 class="text-uppercase"> contact me</h1>
+                        </div>
+                    </div>
+                        <div class="row flex-nowrap justify-content-center align-items-center mb-2 text-center">
+                                <div class="col-3 dimension-star-2"></div>
+                                <div class="col-4">
+                                    <i class="fa-solid fa-star p-2 fs-3"></i>
+                                </div>
+                                <div class="col-3 dimension-star-2"></div>
+                        </div>
+                        <div class="row">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                <input type="name" class="form-control" id="exampleFormControlInput1">
+                              </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput2" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput2">
+                              </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput3" class="form-label">Phone Number</label>
+                                <input type="name" class="form-control" id="exampleFormControlInput3">
+                              </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                              </div>
+                        </div>
+
+                        <div class="row">
+                            <button class="btn btn-primary my-btn" type="submit">Send</button>
+                        </div>
             </div>
         </section>
     </main>
